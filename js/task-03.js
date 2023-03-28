@@ -20,7 +20,7 @@ const imagesHTML = images
   .map(
     ({ url, alt }) => `
   <li>
-    <img src="${url}" alt="${alt}" width = 320px height = 320px>
+    <img src="${url}" alt="${alt}" width = "320px" height = "320px">
   </li>
 `
   )
